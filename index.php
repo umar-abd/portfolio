@@ -36,6 +36,9 @@
             <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
@@ -157,6 +160,38 @@
       </div>
     </section>
 
+    <section id="team" class="container">
+      <h1 class="pb-5 pt-5 text-center">Team</h1>
+      <div class="row px-2">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/foto1.jpg" class="img-fluid rounded-start" alt="back-end">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Back-End Dev</h5>
+                <p class="card-text">Node.js, Expressjs, Python and Flask</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/foto1.jpg" class="img-fluid rounded-start" alt="back-end">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Front-End Dev</h5>
+                <p class="card-text">Bootstrap and Javascript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="blog" class="container">
       <h1 class="pb-5 pt-5 text-center">Blog</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -204,6 +239,7 @@
         </div>
       </div>
     </section>
+
     <section id="contact" class="mb-3 pt-5">
       <div class="row py-md-3">
         <div class="container">
